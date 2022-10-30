@@ -7,11 +7,7 @@ import com.lab6.gameroom.*;
 
 public class AllocateMoneyBudget extends GameRoom implements Command {
 
-	private List<GameRoom> gameRoom;
-
 	public AllocateMoneyBudget(List<GameRoom> gameRoom) {
-
-		this.gameRoom = gameRoom;
 	}
 
 	public void allocateMoneyBudget() {
